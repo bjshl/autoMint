@@ -26,3 +26,5 @@ npm install ethers
 ```
 node automint.js
 ```
+<img width="833" alt="image" src="https://github.com/0xsongsu/autoMint/assets/66813860/8b55a180-2df4-4d27-beed-237cee19b4a7">
+
