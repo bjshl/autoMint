@@ -13,8 +13,9 @@ https://code.visualstudio.com/download)https://code.visualstudio.com/download
 npm install ethers
 ```
 **4. 修改程序参数：**
-	- PrivateKey：钱包私钥
-	- toAddress：私钥对应的钱包地址
+
+  - PrivateKey：钱包私钥
+  - toAddress：私钥对应的钱包地址
   - provider：alchemy申请的RPC节点，或者使用chainlist的节点链接
   - hexData：铭文的16进制数据
   - repeatCount：需要打多少张铭文
