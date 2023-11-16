@@ -21,6 +21,7 @@ npm install ethers
   - repeatCount：需要打多少张铭文
 
 **5. 允许脚本：**
+
 在VS Code的终端中执行命令
 ```
 node automint.js
