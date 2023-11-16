@@ -39,7 +39,7 @@ async function sendTransaction(nonce, gasPrice) {
     data: hexData, // 十六进制数据
     nonce: nonce, // 设置 nonce
     gasPrice: gasPrice, // 设置 gas 价格
-    gasLimit: 22100, //限制gasLimit，根据当前网络转账的设置，不知道设置多少的去区块浏览器看别人转账成功的是多少
+    gasLimit: 23100, //限制gasLimit，根据当前网络转账的设置，不知道设置多少的去区块浏览器看别人转账成功的是多少
   };
 
   try {
@@ -51,7 +51,7 @@ async function sendTransaction(nonce, gasPrice) {
 }
 
 // 定义重复次数
-const repeatCount = 20; // 你想要打多少张，这里就设置多少
+const repeatCount = 20; // 你想要打多少张，这里就设置多少，建议单次别超过50，不然容易不上链
 
 // 发送多次交易
 async function sendTransactions() {
