@@ -6,7 +6,7 @@ https://nodejs.org/en
 ```
 **2. 下载VS Code：**
 ```
-https://code.visualstudio.com/download)https://code.visualstudio.com/download
+https://code.visualstudio.com/download
 ```
 **3. 在终端安装ethers模块：**
 ```
