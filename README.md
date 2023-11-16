@@ -19,3 +19,9 @@ npm install ethers
   - provider：alchemy申请的RPC节点，或者使用chainlist的节点链接
   - hexData：铭文的16进制数据
   - repeatCount：需要打多少张铭文
+
+**5. 允许脚本：**
+在VS Code的终端中执行命令
+```
+node automint.js
+```
